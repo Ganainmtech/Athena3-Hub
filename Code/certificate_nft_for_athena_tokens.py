@@ -23,7 +23,6 @@ def abi_multiple_pay(CertificateNFT:abi.PaymentTransaction, AthenaTokens:abi.Pay
         Approve()
     )
 
-
 if __name__ == "__main__":
     import os
     import json
