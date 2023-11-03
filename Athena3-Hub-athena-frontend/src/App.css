@@ -1,0 +1,173 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+}
+.App {
+  background-color: azure;
+}
+
+.navbar {
+  background-color: aquamarine;
+  width: 100%;
+  height: 80px;
+  display: flex;
+  flex-shrink: 2;
+  margin: 0 auto;
+  .navbar-logo {
+    height: 60px;
+    width: 60px;
+    margin-top: 30px;
+  }
+  .navbar-list {
+    width: 400px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    overflow: hidden; /* 隐藏溢出的内容 */
+    text-overflow: ellipsis; /* 显示省略号 */
+  }
+  .navbar-wallet {
+    margin-left: auto;
+    margin-right: 30px;
+    margin-top: 25px;
+  }
+}
+
+/* body */
+.mainPic {
+  background-color: pink;
+  width: 100%;
+  height: 400px;
+  margin: auto;
+  text-align: center;
+  font-size: 50px;
+  font-weight: 500px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.button {
+  width: 90px;
+  height: 40px;
+}
+.Introduce {
+  background-color: lemonchiffon;
+}
+
+.certificates {
+  background-color: antiquewhite;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  overflow: hidden; /* 隐藏溢出的内容 */
+  .certificates-list {
+    margin: 0 auto;
+    width: 400px;
+    height: 200px;
+    flex: 1; /* 使所有项目具有相同的弹性，平均分布 */
+    flex-shrink: 2; /* 使项目可以缩小 */
+    min-width: 0; /* 允许项目缩小到0，避免溢出 */
+    background-color: deepskyblue;
+    margin-bottom: 10px;
+  }
+}
+
+.courses {
+  margin: 0 auto;
+  display: flex;
+  justify-content: center; /* 水平居中 */
+  align-items: center; /* 垂直居中 */
+  .courses-detail {
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap; /* 允许项目换行 */
+    align-items: center; /* 垂直居中 */
+    justify-content: center; /* 水平居中 */
+    .courses-item {
+      width: 300px;
+      height: 300px;
+      flex: 0 0 calc(33.33% - 10px); /* 三个项目每行，考虑间距 */
+      margin: 5px; /* 可以调整间距大小 */
+      background-color: aquamarine;
+    }
+    .course-img {
+      width: 100px;
+      height: 100px;
+      background-color: bisque;
+    }
+  }
+  @media (max-width: 800px) {
+    .course {
+      flex-basis: 100%; /* 当页面宽度小于800px时，每行只显示1个项目 */
+    }
+  }
+}
+
+.info {
+  margin: 0 auto;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center; /* 水平居中 */
+  align-items: center; /* 垂直居中 */
+  justify-content: space-evenly;
+  .info-detail {
+    display: flex;
+    flex-wrap: wrap; /* 允许项目换行 */
+    justify-content: center; /* 水平居中 */
+    align-items: center; /* 垂直居中 */
+    border: 2px;
+    .info-item {
+      width: 300px;
+      height: 300px;
+      flex: 0 0 calc(33.33% - 10px); /* 三个项目每行，考虑间距 */
+      margin: 5px; /* 可以调整间距大小 */
+      border: 2px;
+      background-color: skyblue;
+    }
+  }
+  @media (max-width: 800px) {
+    .info-item {
+      flex-basis: 100%; /* 当页面宽度小于800px时，每行只显示1个项目 */
+    }
+  }
+}
+
+.queries {
+  margin: 0 auto;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center; /* 水平居中 */
+  align-items: center; /* 垂直居中 */
+  flex-wrap: wrap; /* 允许项目换行 */
+  justify-content: space-evenly;
+  .queries-item {
+    width: 300px;
+    height: 300px;
+    flex: 0 0 calc(33.33% - 10px); /* 三个项目每行，考虑间距 */
+    margin: 5px; /* 可以调整间距大小 */
+    border: 2px;
+    background-color: skyblue;
+    overflow: hidden;
+    text-overflow: clip;
+  }
+  @media (max-width: 800px) {
+    .info-item {
+      flex-basis: 100%; /* 当页面宽度小于800px时，每行只显示1个项目 */
+    }
+  }
+}
+
+.subscribe {
+  margin: 0 auto;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center; /* 水平居中 */
+}
