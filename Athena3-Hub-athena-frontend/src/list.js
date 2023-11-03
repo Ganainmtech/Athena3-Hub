@@ -100,17 +100,17 @@ export const aboutUsList = [
 
 export const questionList = [
   {
-    question: "我是问题",
+    question: "i am question",
     answer: "how to start learning?how to start learning?how to start learning?how to start learning?how to start learning?how to start learning?how to start learning?how to start learning?how to start learning?how to start learning?",
     id: 1
   },
   {
-    question: "我是问题",
+    question: "i am question",
     answer: "how to start learning?how to start learning?how to start learning?how to start learning?how to start learning?how to start learning?how to start learning?how to start learning?how to start learning?how to start learning?",
     id: 2
   },
   {
-    question: "我是问题",
+    question: "i am question",
     answer: "how to start learning?how to start learning?how to start learning?how to start learning?how to start learning?how to start learning?how to start learning?how to start learning?how to start learning?how to start learning?",
     id: 3
   }
