@@ -6,7 +6,6 @@
   box-sizing: border-box;
 }
 .App {
-
 }
 
 .navbar {
@@ -16,6 +15,9 @@
   margin: 0 auto;
   .navbar-logo {
     background-color: beige;
+  }
+  .navbar-menu {
+    width: 500px;
   }
   .navbar-wallet {
     margin-left: auto;
