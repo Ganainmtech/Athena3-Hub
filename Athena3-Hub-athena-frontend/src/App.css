@@ -3,35 +3,25 @@
   padding: 0;
   border: 0;
   outline: 0;
+  box-sizing: border-box;
 }
 .App {
 
 }
 
 .navbar {
-  background-color: aquamarine;
   width: 100%;
-  height: 80px;
   display: flex;
   flex-shrink: 2;
   margin: 0 auto;
   .navbar-logo {
-    height: 60px;
-    width: 60px;
-    margin-top: 30px;
-  }
-  .navbar-list {
-    width: 400px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    overflow: hidden; /* 隐藏溢出的内容 */
-    text-overflow: ellipsis; /* 显示省略号 */
+    background-color: beige;
   }
   .navbar-wallet {
     margin-left: auto;
     margin-right: 30px;
-    margin-top: 25px;
+    margin-top: 10px;
+    vertical-align: center;
   }
 }
 
