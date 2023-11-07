@@ -5,7 +5,7 @@ import AboutUs from "./components/AboutUs.js"
 import Courses from "./components/Courses.js"
 import NavBar from "./components/NavBar.js"
 import Layout from "./Layout.js";
-import Home from "./Home.js";
+import Home from "./components/Home.js";
 import NotFound from "./components/NotFound.js";
 
 function App () {
