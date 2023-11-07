@@ -128,10 +128,10 @@
       border: 2px;
       background-color: skyblue;
     }
-  }
-  @media (max-width: 800px) {
-    .info-item {
-      flex-basis: 100%; /* 当页面宽度小于800px时，每行只显示1个项目 */
+    @media (max-width: 800px) {
+      .info-item {
+        flex-basis: 100%; /* 当页面宽度小于800px时，每行只显示1个项目 */
+      }
     }
   }
 }
@@ -156,7 +156,7 @@
     text-overflow: clip;
   }
   @media (max-width: 800px) {
-    .info-item {
+    .queries-item {
       flex-basis: 100%; /* 当页面宽度小于800px时，每行只显示1个项目 */
     }
   }

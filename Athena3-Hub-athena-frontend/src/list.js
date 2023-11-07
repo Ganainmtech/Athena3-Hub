@@ -1,8 +1,9 @@
 export const navList = [
-  { name: "Home", id: 1 },
-  { name: "Courses", id: 2 },
-  { name: "About", id: 3 },
-  { name: "Community", id: 4 }
+  { name: "Home", id: 1,path: "/" },
+  { name: "Courses", id: 2,path: "/courses" },
+  { name: "Community", id: 3,path: "/community"},
+  { name: "About", id: 4,path: "/about" },
+  { name: "Mint", id: 5,path: "/mint" }
 ]
 
 export const certificatesList = [
