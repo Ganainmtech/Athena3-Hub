@@ -1,7 +1,6 @@
 import { useState, useEffect } from "react"
 import { PeraWalletConnect } from "@perawallet/connect"
-
-// import "./components.css"
+import { Button } from 'antd';
 
 const peraWallet = new PeraWalletConnect()
 
@@ -24,7 +23,7 @@ export default function App () {
   }, [])
 
   return (
-    <button
+    <Button
       onClick={
         isConnectedToPeraWallet
           ? handleDisconnectWalletClick
@@ -33,7 +32,7 @@ export default function App () {
       className="zIndex999"
     >
       {isConnectedToPeraWallet ? "Disconnect" : "Connect Wallet"}
-    </button>
+    </Button>
   )
 
   function handleConnectWalletClick () {
