@@ -8,6 +8,15 @@
 .App {
 }
 
+/* Navbar */
+.zIndex999 {
+  z-index: 999;
+}
+
+.zIndex999:hover {
+  cursor: pointer;
+}
+
 .navbar {
   width: 100%;
   display: flex;
@@ -25,13 +34,14 @@
     margin-top: 10px;
     vertical-align: center;
   }
+
 }
 
 /* body */
 .mainPic {
   background-color: pink;
   width: 100%;
-  height: 400px;
+  height: 800px;
   margin: auto;
   text-align: center;
   font-size: 50px;
@@ -69,6 +79,7 @@
 
 .courses {
   margin: 0 auto;
+  margin-top: 40px;
   display: flex;
   justify-content: center; /* 水平居中 */
   align-items: center; /* 垂直居中 */
@@ -79,10 +90,10 @@
     align-items: center; /* 垂直居中 */
     justify-content: center; /* 水平居中 */
     .courses-item {
-      width: 300px;
-      height: 300px;
+      width: 500px;
+      height: auto;
       flex: 0 0 calc(33.33% - 10px); /* 三个项目每行，考虑间距 */
-      margin: 5px; /* 可以调整间距大小 */
+      margin: 20px; /* 可以调整间距大小 */
       background-color: aquamarine;
     }
     .course-img {
@@ -177,3 +188,4 @@
     padding: 10px;
   }
 }
+
