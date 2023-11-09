@@ -10,8 +10,9 @@ function NavBar (params) {
       <Menu className="navbar-menu" mode="horizontal">
         {navList.map(item => (<Menu.Item key={item.id}><Link to={item.path}>{item.name}</Link></Menu.Item>))}
       </Menu>
-      {/* <div className='navbar-wallet '>wallet</div> */}
-      <Wallet/>
+      <div className='navbar-wallet'><Wallet /></div>
+
+
     </div >
   )
 }

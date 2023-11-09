@@ -29,41 +29,38 @@ export const certificatesList = [
 
 export const coursesList = [
   {
+    imageUrl: 'https://pypi-camo.global.ssl.fastly.net/b7b8616fc337abe45619d148410df8aee32b2e7c/68747470733a2f2f6769746875622e636f6d2f616c676f72616e642f70797465616c2f626c6f622f6d61737465722f646f63732f70797465616c2e706e673f7261773d74727565',
     img: "",
-    title: "course1",
+    title: "PyTeal 101",
     digest: "Use positioning to fix topbars, sidebars, and backgrounds.",
+    link: 'https://www.youtube.com/watch?v=yEFUv760I8A',
     id: 1
   },
   {
+    imageUrl: 'https://pypi-camo.global.ssl.fastly.net/b7b8616fc337abe45619d148410df8aee32b2e7c/68747470733a2f2f6769746875622e636f6d2f616c676f72616e642f70797465616c2f626c6f622f6d61737465722f646f63732f70797465616c2e706e673f7261773d74727565',
     img: "",
-    title: "course1",
+    title: "PyTeal 101",
     digest: "Use positioning to fix topbars, sidebars, and backgrounds.",
+    link: 'https://www.youtube.com/watch?v=yEFUv760I8A',
     id: 2
   },
   {
+    imageUrl: 'https://pypi-camo.global.ssl.fastly.net/b7b8616fc337abe45619d148410df8aee32b2e7c/68747470733a2f2f6769746875622e636f6d2f616c676f72616e642f70797465616c2f626c6f622f6d61737465722f646f63732f70797465616c2e706e673f7261773d74727565',
     img: "",
-    title: "course1",
+    title: "PyTeal 101",
     digest: "Use positioning to fix topbars, sidebars, and backgrounds.",
+    link: 'https://www.youtube.com/watch?v=yEFUv760I8A',
     id: 3
   },
   {
+    imageUrl: 'https://pypi-camo.global.ssl.fastly.net/b7b8616fc337abe45619d148410df8aee32b2e7c/68747470733a2f2f6769746875622e636f6d2f616c676f72616e642f70797465616c2f626c6f622f6d61737465722f646f63732f70797465616c2e706e673f7261773d74727565',
     img: "",
-    title: "course1",
+    title: "PyTeal 101",
     digest: "Use positioning to fix topbars, sidebars, and backgrounds.",
+    link: 'https://www.youtube.com/watch?v=yEFUv760I8A',
     id: 4
   },
-  {
-    img: "",
-    title: "course1",
-    digest: "Use positioning to fix topbars, sidebars, and backgrounds.",
-    id: 5
-  },
-  {
-    img: "",
-    title: "course1",
-    digest: "Use positioning to fix topbars, sidebars, and backgrounds.",
-    id: 6
-  }
+  
 ]
 
 export const aboutUsList = [
