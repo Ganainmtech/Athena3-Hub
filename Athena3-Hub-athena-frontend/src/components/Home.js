@@ -6,7 +6,6 @@ import Subscribe from "./Subscribe.js";
 function Home () {
   return (
 <div>
-我是dashboard
 <MainPic />
 <WelcomeWord />
 <Certificates />

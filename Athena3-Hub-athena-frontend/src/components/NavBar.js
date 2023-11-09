@@ -11,9 +11,7 @@ function NavBar (params) {
         {navList.map(item => (<Menu.Item key={item.id}><Link to={item.path}>{item.name}</Link></Menu.Item>))}
       </Menu>
       <div className='navbar-wallet'><Wallet /></div>
-
-
     </div >
   )
 }
-export default NavBar
+export default NavBar;

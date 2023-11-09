@@ -8,6 +8,7 @@ import Layout from "./Layout.js";
 import Home from "./components/Home.js";
 import NotFound from "./components/NotFound.js";
 
+
 function App () {
   return (
     <div className="App">
@@ -21,7 +22,7 @@ function App () {
             <Route path="/courses" element={<Courses />}></Route>
             <Route path="/about" element={<AboutUs />}></Route>
           </Route>
-          <Route path="/*" element={<NotFound/>}/>
+          <Route path="*" element={<NotFound/>}/>
         </Routes>
       </BrowserRouter>
       </div>
