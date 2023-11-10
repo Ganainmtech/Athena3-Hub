@@ -31,6 +31,7 @@
 
 
   .navbar-menu {
+    width: 50%;
   }
   .navbar-wallet {
     margin-left: auto;
@@ -44,7 +45,7 @@
 .mainPic {
   background-image: linear-gradient(135deg, #e08417 0%, #6621D6 100%);
   width: 100%;
-  height: 700px;
+  height: 800px;
   margin: auto;
   text-align: center;
   display: flex;
@@ -52,13 +53,14 @@
   justify-content: center;
   align-items: center;
   .title {
-    height: 450px;
+    height: 400px;
     font-size: 100px;
     font-weight: 500px;
     color: #F3EDFC;
     .mainPic-logo {
-      width: 100%;
-      height: 100%;
+      margin-top: 5%;
+      width: 70%;
+      height: auto;
     }
   }
   .mainPic-subtitle {
@@ -67,6 +69,9 @@
     font-weight: 500px;
     margin-top: -25px;
     margin-bottom: 25px;
+  }
+  .subtitle1 {
+    margin-bottom: 20px;
   }
 }
 .button {
