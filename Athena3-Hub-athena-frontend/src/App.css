@@ -49,10 +49,12 @@
   flex-shrink: 2;
   margin: 0 auto;
   overflow: hidden;
+  background-color: 0.3s ease;
+  z-index: 10;
   .navbar-logo {
     max-width: 50px;
     height: auto;
-    margin-left: 15px;
+    margin-left:15px ;
   }
 
   .navbar-menu {
@@ -65,7 +67,15 @@
     vertical-align: center;
   }
 }
-
+/* 固定样式 */
+.navbar.fixed {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background-color: #fff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  background-color: 0.3s ease;
+}
 /* body */
 .mainPic {
   background-image: linear-gradient(135deg, #e08417 0%, #6621d6 100%);

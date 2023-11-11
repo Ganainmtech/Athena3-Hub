@@ -1,10 +1,6 @@
-import React from 'react'
 import * as allList from "../list.js"
-import { Button, Flex } from 'antd'
-
 function Certificates () {
   const list = allList.certificatesList
-
   return (
     <div className='certificates'>
       {list.map(item => (
@@ -18,9 +14,9 @@ function Certificates () {
             <div className='certificates-name'>{item.name}</div>
             <div className='certificates-subname'>{item.subName}</div>
           </div>
-        </Button>
-      ))}
-    </div>
+        ))}
+      </div>
+    </>
   )
 }
 export default Certificates;

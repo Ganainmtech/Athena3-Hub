@@ -1,15 +1,15 @@
-import * as allList from "../list.js"
-import { Card, Col, Row } from 'antd'
+import * as allList from "../list.js";
+import { Card, Col, Row } from 'antd';
 
 function AboutUs () {
-  const list = allList.aboutUsList
+  const list = allList.aboutUsList;
   return (
     <div className="info">
       <Row gutter={16}>
         {list.map((item) => (
           <Col key={item.id} span={8}>
             <Card title={item.name}
-            // bordered={false}
+              // bordered={false}
               hoverable
               className="info-item">
               <div>{item.img}</div>
@@ -24,6 +24,6 @@ function AboutUs () {
         ))}
       </Row>
     </div>
-  )
+  );
 }
 export default AboutUs;
