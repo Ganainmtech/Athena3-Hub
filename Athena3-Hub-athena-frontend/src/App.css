@@ -26,9 +26,8 @@
   .navbar-logo {
     max-width: 50px;
     height: auto;
-    margin: 
+    margin: ;
   }
-
 
   .navbar-menu {
     width: 50%;
@@ -43,7 +42,7 @@
 
 /* body */
 .mainPic {
-  background-image: linear-gradient(135deg, #e08417 0%, #6621D6 100%);
+  background-image: linear-gradient(135deg, #e08417 0%, #6621d6 100%);
   width: 100%;
   height: 800px;
   margin: auto;
@@ -56,7 +55,7 @@
     height: 400px;
     font-size: 100px;
     font-weight: 500px;
-    color: #F3EDFC;
+    color: #f3edfc;
     .mainPic-logo {
       margin-top: 5%;
       width: 70%;
@@ -64,7 +63,7 @@
     }
   }
   .mainPic-subtitle {
-    color: #F3EDFC;
+    color: #f3edfc;
     font-size: 30px;
     font-weight: 500px;
     margin-top: -25px;
@@ -81,7 +80,7 @@
 
 .welcomeWord {
 }
-.welcomeWord-pic{
+.welcomeWord-pic {
   width: 200px;
   height: 200px;
   .img {
@@ -130,7 +129,7 @@
       height: auto;
       flex: 0 0 calc(33.33% - 10px); /* 三个项目每行，考虑间距 */
       margin: 20px; /* 可以调整间距大小 */
-      background-color: aquamarine;
+      background-color: #f3edfc;
     }
     .course-img {
       width: 100px;
@@ -147,32 +146,34 @@
 
 .info {
   margin: 0 auto;
-  width: 100%;
+  margin-top: 40px;
+  width: 70%;
   height: 100%;
   display: flex;
   justify-content: center; /* 水平居中 */
   align-items: center; /* 垂直居中 */
   justify-content: space-evenly;
-  .info-detail {
-    display: flex;
-    flex-wrap: wrap; /* 允许项目换行 */
-    justify-content: center; /* 水平居中 */
-    align-items: center; /* 垂直居中 */
-    border: 2px;
+
+  .info-item {
+    width: 400px;
+    height: 300px;
+    flex: 0 0 calc(33.33% - 10px); /* 三个项目每行，考虑间距 */
+    margin: 5px; /* 可以调整间距大小 */
+    margin-top: 10px;
+    border: 2px solid #ab9ac7;
+    background-color: #f3edfc;
+  }
+  @media (max-width: 800px) {
     .info-item {
-      width: 300px;
-      height: 300px;
-      flex: 0 0 calc(33.33% - 10px); /* 三个项目每行，考虑间距 */
-      margin: 5px; /* 可以调整间距大小 */
-      border: 2px;
-      background-color: skyblue;
-    }
-    @media (max-width: 800px) {
-      .info-item {
-        flex-basis: 100%; /* 当页面宽度小于800px时，每行只显示1个项目 */
-      }
+      flex-basis: 100%; /* 当页面宽度小于800px时，每行只显示1个项目 */
     }
   }
+}
+
+.about-us {
+  margin: 0 auto;
+  margin-top: 100px;
+  width: 70%;
 }
 
 .queries {
@@ -224,4 +225,3 @@
     padding: 10px;
   }
 }
-

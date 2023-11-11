@@ -66,31 +66,31 @@ export const coursesList = [
 export const aboutUsList = [
   {
     name: "wanjin",
-    digest: "learn about hosting",
+    digest: "learn about hosting,learn about hosting,learn about hosting,learn about hosting,learn about hosting,learn about hosting,learn about hosting,learn about hosting,learn about hosting,learn about hosting,learn about hosting, ",
     pic: "1",
     id: 1
   },
   {
     name: "wanjin",
-    digest: "learn about hosting",
+    digest: "learn about hosting,learn about hosting,learn about hosting,learn about hosting,learn about hosting,learn about hosting,learn about hosting,learn about hosting,learn about hosting,learn about hosting,learn about hosting, ",
     pic: "1",
     id: 2
   },
   {
     name: "wanjin",
-    digest: "learn about hosting",
+    digest: "learn about hosting,learn about hosting,learn about hosting,learn about hosting,learn about hosting,learn about hosting,learn about hosting,learn about hosting,learn about hosting,learn about hosting,learn about hosting, ",
     pic: "1",
     id: 3
   },
   {
     name: "wanjin",
-    digest: "learn about hosting",
+    digest: "learn about hosting,learn about hosting,learn about hosting,learn about hosting,learn about hosting,learn about hosting,learn about hosting,learn about hosting,learn about hosting,learn about hosting,learn about hosting, ",
     pic: "1",
     id: 4
   },
   {
     name: "wanjin",
-    digest: "learn about hosting",
+    digest: "learn about hosting,learn about hosting,learn about hosting,learn about hosting,learn about hosting,learn about hosting,learn about hosting,learn about hosting,learn about hosting,learn about hosting,learn about hosting, ",
     pic: "1",
     id: 5
   }
