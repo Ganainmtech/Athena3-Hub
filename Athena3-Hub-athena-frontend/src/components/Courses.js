@@ -1,5 +1,6 @@
 import * as allList from "../list.js"
 import { Card } from 'antd'
+import img from '../assets/pyteal.png';
 const { Meta } = Card
 
 
@@ -20,7 +21,7 @@ function Courses () {
                 hoverable
                 className="courses-item"
 
-                cover={<img alt={item.title} src={item.imageUrl} />} // 替换图片URL
+                cover={<img alt={item.title} src={img} />} 
               >
                 <Meta title={item.title} description={item.digest} />
               </Card>
