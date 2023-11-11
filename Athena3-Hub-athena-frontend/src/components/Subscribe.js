@@ -1,11 +1,14 @@
+import { Input, Button } from 'antd';
 function Subscribe () {
   return (
     <div className='subscribe'>
-      <h1>Stay in the Loop</h1>
-      <div><input type="text" value="请输入邮箱"></input></div>
-      <div><button>subscribe</button></div>
-      <div>© 2023 Athena3Hub – Proudly breaking barriers in online learning
-        Generated on October 30, 2023</div>
+      <div className="mainTitle heartbeat-element">Stay in the Loop</div>
+      <div className='subscribe-input'><Input  size="large" placeholder="Please input your e-mail" /></div>
+      <div>
+      <Button type="primary" size={"large"}>
+      Subscribe
+    </Button>
+    </div>
     </div>
   )
 }
