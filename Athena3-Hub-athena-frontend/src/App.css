@@ -139,6 +139,9 @@
     background-clip: text; /* 通用的 background-clip 属性 */
     color: transparent; /* 使文本透明 */
     font-family: "Lato"; /* 指定字体 */
+    .welcomeWord-items-emoji {
+      color: white;
+    }
   }
 }
 .welcomeWord-pic {
