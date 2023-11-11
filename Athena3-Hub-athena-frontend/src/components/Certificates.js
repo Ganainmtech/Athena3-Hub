@@ -15,7 +15,6 @@ function Certificates () {
         >
           <div className="certificates-name">{item.name}</div>
           <div className="certificates-subname">{item.subName}</div>
-          {/* id is not displayed on the button */}
         </Button>
       ))}
     </div>
