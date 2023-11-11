@@ -1,10 +1,10 @@
 export const navList = [
-  { name: "Home", id: 1,path: "/" },
-  { name: "Courses", id: 2,path: "/courses" },
-  { name: "Community", id: 3,path: "/community"},
-  { name: "About", id: 4,path: "/about" },
-  { name: "Mint", id: 5,path: "/mint" }
-]
+  { name: "Home", id: 1, path: "/" },
+  { name: "Courses", id: 2, path: "/courses" },
+  { name: "Community", id: 3, path: "/community" },
+  { name: "About", id: 4, path: "/about" },
+  { name: "Mint", id: 5, path: "/mint" }
+];
 
 export const certificatesList = [
   {
@@ -25,7 +25,7 @@ export const certificatesList = [
     subName: "Share Your Expertise",
     id: 3
   }
-]
+];
 
 export const coursesList = [
   {
@@ -60,8 +60,8 @@ export const coursesList = [
     link: 'https://www.youtube.com/watch?v=yEFUv760I8A',
     id: 4
   },
-  
-]
+
+];
 
 export const aboutUsList = [
   {
@@ -94,7 +94,7 @@ export const aboutUsList = [
     pic: "1",
     id: 5
   }
-]
+];
 
 export const questionList = [
   {
@@ -112,4 +112,4 @@ export const questionList = [
     answer: "Upon passing the course exam, you'll be able to mint your unique, blockchain-based certificate that serves as a verifiable record of your accomplishment.",
     id: 3
   }
-]
+];

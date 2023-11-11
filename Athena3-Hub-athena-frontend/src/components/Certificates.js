@@ -1,6 +1,6 @@
-import * as allList from "../list.js"
+import * as allList from "../list.js";
 function Certificates () {
-  const list = allList.certificatesList
+  const list = allList.certificatesList;
   return (
     <>
       <div className='certificates'>
@@ -14,6 +14,6 @@ function Certificates () {
         ))}
       </div>
     </>
-  )
+  );
 }
 export default Certificates;

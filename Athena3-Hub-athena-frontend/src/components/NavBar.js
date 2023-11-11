@@ -1,11 +1,11 @@
-import * as allList from "../list.js"
-import { Menu } from 'antd'
-import { Link } from 'react-router-dom'
-import Wallet from './Wallet.js'
-import LogoImage from '../assets/TransperantLogo.png'
+import * as allList from "../list.js";
+import { Menu } from 'antd';
+import { Link } from 'react-router-dom';
+import Wallet from './Wallet.js';
+import LogoImage from '../assets/TransperantLogo.png';
 
 function NavBar (params) {
-  const navList = allList.navList
+  const navList = allList.navList;
   return (
     <div className='navbar'>
       <div>
@@ -16,6 +16,6 @@ function NavBar (params) {
       </Menu>
       <div className='navbar-wallet'><Wallet /></div>
     </div >
-  )
+  );
 }
 export default NavBar;

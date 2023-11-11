@@ -1,12 +1,12 @@
-import * as allList from "../list.js"
-import { Card } from 'antd'
+import * as allList from "../list.js";
+import { Card } from 'antd';
 import img from '../assets/pyteal.png';
-const { Meta } = Card
+const { Meta } = Card;
 
 
 
 function Courses () {
-  const list = allList.coursesList
+  const list = allList.coursesList;
 
 
   return (
@@ -21,7 +21,7 @@ function Courses () {
                 hoverable
                 className="courses-item"
 
-                cover={<img alt={item.title} src={img} />} 
+                cover={<img alt={item.title} src={img} />}
               >
                 <Meta title={item.title} description={item.digest} />
               </Card>
@@ -30,7 +30,7 @@ function Courses () {
         </div>
       </div>
     </>
-  )
+  );
 }
 
-export default Courses
+export default Courses;

@@ -10,7 +10,12 @@
 .mainTitle {
   font-size: 70px;
   font-weight: 400;
-  background: linear-gradient(45deg, #6621D6, #ba81c1, #2d4ddb); /* 渐变颜色设置 */
+  background: linear-gradient(
+    45deg,
+    #6621d6,
+    #ba81c1,
+    #2d4ddb
+  ); /* 渐变颜色设置 */
   -webkit-background-clip: text; /* 用于支持WebKit浏览器（如Chrome和Safari）的属性 */
   background-clip: text; /* 通用的 background-clip 属性 */
   color: transparent; /* 使文本透明 */
@@ -26,9 +31,8 @@
   /* padding: 20px; */
   background-color: #fff;
   border-radius: 5px;
-  color: #14072B;
+  color: #14072b;
 }
-
 
 /* Navbar */
 .zIndex999 {
@@ -48,7 +52,7 @@
   .navbar-logo {
     max-width: 50px;
     height: auto;
-    margin-left:15px ;
+    margin-left: 15px;
   }
 
   .navbar-menu {
@@ -101,7 +105,7 @@
 }
 
 .welcomeWord {
-  width:150vh;
+  width: 150vh;
   padding: 70px 20px;
   margin: 0 auto;
   .welcomeWord-title {
@@ -112,7 +116,12 @@
   .welcomeWord-items {
     text-align: justify;
     font-size: 24px;
-    background: linear-gradient(45deg, #6621D6, #ba81c1, #2d4ddb); /* 渐变颜色设置 */
+    background: linear-gradient(
+      45deg,
+      #6621d6,
+      #ba81c1,
+      #2d4ddb
+    ); /* 渐变颜色设置 */
     -webkit-background-clip: text; /* 用于支持WebKit浏览器（如Chrome和Safari）的属性 */
     background-clip: text; /* 通用的 background-clip 属性 */
     color: transparent; /* 使文本透明 */
@@ -219,9 +228,9 @@
 
 .queries {
   width: 100%;
-  height:100%;
+  height: 100%;
   padding: 20px;
-  background-color: #F3EDFC;
+  background-color: #f3edfc;
   .queries-items {
     display: flex;
     justify-content: center; /* 水平居中 */
@@ -244,7 +253,7 @@
         font-size: 18px;
         justify-content: center;
         text-align: justify;
-        color: #8E8899;
+        color: #8e8899;
       }
     }
     @media (max-width: 800px) {
@@ -264,7 +273,7 @@
   align-items: center;
   justify-content: center; /* 水平居中 */
   margin: 20px;
-  .subscribe-input{
+  .subscribe-input {
     margin: 0 auto;
     width: 300px;
     margin: 20px 0 10px 0;
@@ -292,13 +301,13 @@
     padding: 10px;
   }
 }
-.copyright{
+.copyright {
   height: 100px;
   margin-top: 0;
   padding-top: 30px;
-  color: #D1BCF3;
+  color: #d1bcf3;
   text-align: center;
-  background-color: #6621D6;
+  background-color: #6621d6;
   position: sticky;
 }
 
