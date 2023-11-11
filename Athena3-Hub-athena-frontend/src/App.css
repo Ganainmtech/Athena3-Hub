@@ -50,6 +50,7 @@
   margin: 0 auto;
   overflow: hidden;
   background-color: 0.3s ease;
+  z-index: 10;
   .navbar-logo {
     max-width: 50px;
     height: auto;
