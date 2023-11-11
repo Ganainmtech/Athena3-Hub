@@ -7,6 +7,28 @@
 }
 .App {
 }
+.mainTitle {
+  font-size: 70px;
+  font-weight: 400;
+  background: linear-gradient(45deg, #6621D6, #ba81c1, #2d4ddb); /* 渐变颜色设置 */
+  -webkit-background-clip: text; /* 用于支持WebKit浏览器（如Chrome和Safari）的属性 */
+  background-clip: text; /* 通用的 background-clip 属性 */
+  color: transparent; /* 使文本透明 */
+  font-family: "Lato"; /* 指定字体 */
+}
+.subtitle {
+  font-size: 25px;
+  font-weight: 400;
+}
+.container {
+  max-width: 2000px;
+  margin: 0 auto;
+  /* padding: 20px; */
+  background-color: #fff;
+  border-radius: 5px;
+  color: #14072B;
+}
+
 
 /* Navbar */
 .zIndex999 {
@@ -26,7 +48,7 @@
   .navbar-logo {
     max-width: 50px;
     height: auto;
-    margin: ;
+    margin-left:15px ;
   }
 
   .navbar-menu {
@@ -79,6 +101,23 @@
 }
 
 .welcomeWord {
+  width:150vh;
+  padding: 70px 20px;
+  margin: 0 auto;
+  .welcomeWord-title {
+    font-size: 70px;
+    font-weight: 400;
+    margin-bottom: 30px;
+  }
+  .welcomeWord-items {
+    text-align: justify;
+    font-size: 24px;
+    background: linear-gradient(45deg, #6621D6, #ba81c1, #2d4ddb); /* 渐变颜色设置 */
+    -webkit-background-clip: text; /* 用于支持WebKit浏览器（如Chrome和Safari）的属性 */
+    background-clip: text; /* 通用的 background-clip 属性 */
+    color: transparent; /* 使文本透明 */
+    font-family: "Lato"; /* 指定字体 */
+  }
 }
 .welcomeWord-pic {
   width: 200px;
@@ -100,6 +139,7 @@
   flex-direction: column;
   align-items: center;
   overflow: hidden; /* 隐藏溢出的内容 */
+  padding: 20px;
   .certificates-list {
     margin: 0 auto;
     width: 400px;
@@ -118,6 +158,7 @@
   display: flex;
   justify-content: center; /* 水平居中 */
   align-items: center; /* 垂直居中 */
+  padding: 20px;
   .courses-detail {
     margin: 0 auto;
     display: flex;
@@ -177,27 +218,39 @@
 }
 
 .queries {
-  margin: 0 auto;
   width: 100%;
-  height: 100%;
-  display: flex;
-  justify-content: center; /* 水平居中 */
-  align-items: center; /* 垂直居中 */
-  flex-wrap: wrap; /* 允许项目换行 */
-  justify-content: space-evenly;
-  .queries-item {
-    width: 300px;
-    height: 300px;
-    flex: 0 0 calc(33.33% - 10px); /* 三个项目每行，考虑间距 */
-    margin: 5px; /* 可以调整间距大小 */
-    border: 2px;
-    background-color: skyblue;
-    overflow: hidden;
-    text-overflow: clip;
-  }
-  @media (max-width: 800px) {
+  height:100%;
+  padding: 20px;
+  background-color: #F3EDFC;
+  .queries-items {
+    display: flex;
+    justify-content: center; /* 水平居中 */
+    align-items: center; /* 垂直居中 */
+    flex-wrap: wrap; /* 允许项目换行 */
+    justify-content: space-evenly;
+    margin: 0 auto;
     .queries-item {
-      flex-basis: 100%; /* 当页面宽度小于800px时，每行只显示1个项目 */
+      width: 300px;
+      height: 100%;
+      flex: 0 0 calc(33.33% - 10px); /* 三个项目每行，考虑间距 */
+      margin: 5px; /* 可以调整间距大小 */
+      overflow: hidden;
+      text-overflow: clip;
+      padding: 20px 50px;
+      .queries-item-title {
+        color: #6621d6;
+      }
+      .queries-item-answer {
+        font-size: 18px;
+        justify-content: center;
+        text-align: justify;
+        color: #8E8899;
+      }
+    }
+    @media (max-width: 800px) {
+      .queries-item {
+        flex-basis: 100%; /* 当页面宽度小于800px时，每行只显示1个项目 */
+      }
     }
   }
 }
@@ -210,18 +263,45 @@
   flex-direction: column;
   align-items: center;
   justify-content: center; /* 水平居中 */
+  margin: 20px;
+  .subscribe-input{
+    margin: 0 auto;
+    width: 300px;
+    margin: 20px 0 10px 0;
+  }
 }
 
-.container {
-  max-width: 2000px;
-  margin: 0 auto;
-  /* padding: 20px; */
-  background-color: #fff;
-  border-radius: 5px;
+@keyframes slowHeartbeat {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.1);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+.heartbeat-element {
+  animation: slowHeartbeat 3s infinite;
 }
 
 @media (max-width: 768px) {
   .container {
     padding: 10px;
   }
+}
+.copyright{
+  height: 100px;
+  margin-top: 0;
+  padding-top: 30px;
+  color: #D1BCF3;
+  text-align: center;
+  background-color: #6621D6;
+  position: sticky;
+}
+
+.notFound {
+  margin: 150px 0 200px 0;
 }

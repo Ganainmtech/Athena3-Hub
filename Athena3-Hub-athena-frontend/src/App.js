@@ -7,7 +7,7 @@ import NavBar from "./components/NavBar.js"
 import Layout from "./Layout.js";
 import Home from "./components/Home.js";
 import NotFound from "./components/NotFound.js";
-
+import Copyright  from './Copyright.js';
 
 function App () {
   return (
@@ -24,6 +24,7 @@ function App () {
           </Route>
           <Route path="*" element={<NotFound/>}/>
         </Routes>
+        <Copyright />
       </BrowserRouter>
       </div>
     </div >

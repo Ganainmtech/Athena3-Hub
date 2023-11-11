@@ -98,18 +98,18 @@ export const aboutUsList = [
 
 export const questionList = [
   {
-    question: "i am question",
-    answer: "how to start learning?how to start learning?how to start learning?how to start learning?how to start learning?how to start learning?how to start learning?how to start learning?how to start learning?how to start learning?",
+    question: "How to start learning?",
+    answer: "Sign up, explore our diverse course catalog, and enroll in courses that appeal to you. Learn at your own pace and unlock your potential!",
     id: 1
   },
   {
-    question: "i am question",
-    answer: "how to start learning?how to start learning?how to start learning?how to start learning?how to start learning?how to start learning?how to start learning?how to start learning?how to start learning?how to start learning?",
+    question: "What are AthenaPoints?",
+    answer: "AthenaPoints are rewards you earn when you contribute to the community by uploading new courses. Accumulate points and redeem them for exclusive benefits.",
     id: 2
   },
   {
-    question: "i am question",
-    answer: "how to start learning?how to start learning?how to start learning?how to start learning?how to start learning?how to start learning?how to start learning?how to start learning?how to start learning?how to start learning?",
+    question: "How to mint certificates?",
+    answer: "Upon passing the course exam, you'll be able to mint your unique, blockchain-based certificate that serves as a verifiable record of your accomplishment.",
     id: 3
   }
 ]
