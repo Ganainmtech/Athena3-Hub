@@ -19,7 +19,7 @@
   -webkit-background-clip: text; /* 用于支持WebKit浏览器（如Chrome和Safari）的属性 */
   background-clip: text; /* 通用的 background-clip 属性 */
   color: transparent; /* 使文本透明 */
-  font-family: "Lato"; /* 指定字体 */
+  font-family: 'Lato'; /* 指定字体 */
 }
 .subtitle {
   font-size: 25px;
@@ -54,10 +54,7 @@
   .navbar-logo {
     max-width: 50px;
     height: auto;
-    margin-left: 15px;
-  }
-  .navbar-logo:hover {
-    cursor: pointer;
+    margin-left:15px ;
   }
 
   .navbar-menu {
@@ -138,15 +135,19 @@
     -webkit-background-clip: text; /* 用于支持WebKit浏览器（如Chrome和Safari）的属性 */
     background-clip: text; /* 通用的 background-clip 属性 */
     color: transparent; /* 使文本透明 */
+<<<<<<< HEAD
     font-family: "Lato"; /* 指定字体 */
     .welcomeWord-items-emoji {
       color: white;
     }
+=======
+    font-family: 'Lato'; /* 指定字体 */
+>>>>>>> 2cb2aa2d19424130a78818f6db0d7df95bd969c2
   }
 }
 .welcomeWord-pic {
   width: 200px;
-  height: 200px;
+  height: 300px;
   .img {
     display: block;
     width: 200px;
@@ -159,21 +160,31 @@
 }
 
 .certificates {
-  background-color: antiquewhite;
+  background-color: #ab9ac7;
   display: flex;
   flex-direction: column;
   align-items: center;
   overflow: hidden; /* 隐藏溢出的内容 */
   padding: 20px;
+  height:400px;
   .certificates-list {
     margin: 0 auto;
-    width: 400px;
-    height: 200px;
+    margin-top: 15px;
+    width: 50%;
+    height: auto;
     flex: 1; /* 使所有项目具有相同的弹性，平均分布 */
     flex-shrink: 2; /* 使项目可以缩小 */
     min-width: 0; /* 允许项目缩小到0，避免溢出 */
-    background-color: deepskyblue;
-    margin-bottom: 10px;
+    background-color: #d5c1de;
+    margin-bottom: 20px;
+    .certificates-name {
+      font-family: 'Lato';
+      font-size: 23px;
+    }
+    .certificates-subname {
+      font-family: 'Lato';
+      font-size: 18px;
+    }
   }
 }
 
