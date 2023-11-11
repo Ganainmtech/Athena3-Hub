@@ -19,7 +19,7 @@
   -webkit-background-clip: text; /* 用于支持WebKit浏览器（如Chrome和Safari）的属性 */
   background-clip: text; /* 通用的 background-clip 属性 */
   color: transparent; /* 使文本透明 */
-  font-family: 'Lato'; /* 指定字体 */
+  font-family: "Lato"; /* 指定字体 */
 }
 .subtitle {
   font-size: 25px;
@@ -54,7 +54,10 @@
   .navbar-logo {
     max-width: 50px;
     height: auto;
-    margin-left:15px ;
+    margin-left: 15px;
+  }
+  .navbar-logo:hover {
+    cursor: pointer;
   }
 
   .navbar-menu {
@@ -135,14 +138,10 @@
     -webkit-background-clip: text; /* 用于支持WebKit浏览器（如Chrome和Safari）的属性 */
     background-clip: text; /* 通用的 background-clip 属性 */
     color: transparent; /* 使文本透明 */
-<<<<<<< HEAD
     font-family: "Lato"; /* 指定字体 */
     .welcomeWord-items-emoji {
       color: white;
     }
-=======
-    font-family: 'Lato'; /* 指定字体 */
->>>>>>> 2cb2aa2d19424130a78818f6db0d7df95bd969c2
   }
 }
 .welcomeWord-pic {
@@ -166,7 +165,7 @@
   align-items: center;
   overflow: hidden; /* 隐藏溢出的内容 */
   padding: 20px;
-  height:400px;
+  height: 400px;
   .certificates-list {
     margin: 0 auto;
     margin-top: 15px;
@@ -178,11 +177,11 @@
     background-color: #d5c1de;
     margin-bottom: 20px;
     .certificates-name {
-      font-family: 'Lato';
+      font-family: "Lato";
       font-size: 23px;
     }
     .certificates-subname {
-      font-family: 'Lato';
+      font-family: "Lato";
       font-size: 18px;
     }
   }
