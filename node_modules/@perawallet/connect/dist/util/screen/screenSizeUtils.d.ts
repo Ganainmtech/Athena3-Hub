@@ -1,0 +1,6 @@
+declare function isLargeScreen(): boolean;
+declare function isMediumScreen(): boolean;
+declare function isSmallScreen(): boolean;
+declare function isXSmallScreen(): boolean;
+declare function setVhVariable(): void;
+export { isLargeScreen, isMediumScreen, isSmallScreen, isXSmallScreen, setVhVariable };

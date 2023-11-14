@@ -1,0 +1,2 @@
+declare function generateSimpleId(): number;
+export { generateSimpleId };

@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/athena3-hub.io/static/css/main.494b024f.css",
+    "main.js": "/athena3-hub.io/static/js/main.f5aff6f7.js",
+    "static/js/787.f763d8b4.chunk.js": "/athena3-hub.io/static/js/787.f763d8b4.chunk.js",
+    "static/media/TransperantLogo.png": "/athena3-hub.io/static/media/TransperantLogo.c61a0a8934562e7f8b0f.png",
+    "static/media/nameWhite.png": "/athena3-hub.io/static/media/nameWhite.26b374abfb9cc09471f2.png",
+    "static/media/pyteal.png": "/athena3-hub.io/static/media/pyteal.1e3f0cafe9e43e905265.png",
+    "index.html": "/athena3-hub.io/index.html",
+    "main.494b024f.css.map": "/athena3-hub.io/static/css/main.494b024f.css.map",
+    "main.f5aff6f7.js.map": "/athena3-hub.io/static/js/main.f5aff6f7.js.map",
+    "787.f763d8b4.chunk.js.map": "/athena3-hub.io/static/js/787.f763d8b4.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.494b024f.css",
+    "static/js/main.f5aff6f7.js"
+  ]
+}
