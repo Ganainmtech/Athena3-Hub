@@ -238,12 +238,23 @@
 
   .info-item {
     width: 400px;
-    height: 300px;
+    height: 350px;
     flex: 0 0 calc(33.33% - 10px); /* 三个项目每行，考虑间距 */
     margin: 5px; /* 可以调整间距大小 */
     margin-top: 10px;
     border: 2px solid #ab9ac7;
     background-color: #f3edfc;
+    /* font-size: 20px; */
+  }
+  .info-position {
+    margin-bottom: 20px;
+    font-weight: 600;
+    font-size: 15px;
+
+  }
+
+  .info-digest {
+    margin-bottom: 10px;
   }
   @media (max-width: 800px) {
     .info-item {

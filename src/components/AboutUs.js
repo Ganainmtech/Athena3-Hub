@@ -9,14 +9,12 @@ function AboutUs () {
         {list.map((item) => (
           <Col key={item.id} span={8}>
             <Card title={item.name}
-              // bordered={false}
               hoverable
               className="info-item">
-              <div>{item.img}</div>
               <div>
                 <div>
-                  <div>{item.name}</div>
-                  <div>{item.digest}</div>
+                  <div className="info-position">{item.position}</div>
+                  <div className="info-digest">{item.digest}</div>
                 </div>
               </div>
             </Card>
